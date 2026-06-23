@@ -1,4 +1,4 @@
-/* 共通設定 */
+
 body,
 h1,
 p {
@@ -10,7 +10,7 @@ a {
   font-size: 20px;
 }
 
-/* header */
+
 header {
   background-color: rgb(244, 79, 79);
   text-align: center;
@@ -21,7 +21,7 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
-/* main */
+
 main {
   padding: 10px;
 }
@@ -44,13 +44,13 @@ h2 {
   border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
-/* h2の前に●を追加 */
+
 h2::before {
   content: "●";
   color: rgb(239, 111, 139);
 }
 
-/* 2番目のpタグの先頭文字だけ変更 */
+
 .contents p:nth-of-type(2)::first-letter {
   font-weight: bold;
   color: rgb(97, 206, 249);
@@ -61,7 +61,7 @@ h2::before {
   width: 70%;
 }
 
-/* footer */
+
 footer {
   background-color: rgb(244, 79, 79);
   text-align: center;
@@ -79,7 +79,7 @@ a:hover {
   color: rgb(245, 178, 168);
 }
 
-/* レスポンシブ */
+
 @media screen and (max-width: 768px) {
 
   h2 {
